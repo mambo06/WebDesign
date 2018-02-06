@@ -1,0 +1,133 @@
+
+/*
+bodyHeader 
+*/
+.bodyWrapper {
+	
+	width: 100%;
+	}
+	
+.bodyHeader {
+	background: #2B2D42;
+   color: #8D99AE;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+	}
+
+.userInfo {
+	background-color: #2B2D42;
+	}
+.userInfo .home {
+	float: left;
+	width: 10%;
+	background-color: inherit;
+	padding-left: 2%;
+	}
+.userInfo .content {
+	width: 10%;
+	float: left;
+	text-align: left;
+	background-color: inherit;
+	}
+.userInfo .profile {
+	width: 76%;
+	float: left;
+	text-align: right;
+	padding-right: 2%;
+	background-color: inherit;
+	}
+
+/*
+bodyContent
+*/
+.bodyContent{
+	
+	text-align: center;	
+	width: 100%;
+	}
+	
+.backImage {
+	
+   padding: 0;
+	height: 100px;	 
+	width: 100%;  
+   }
+
+	
+.bodyContent h2 {
+	}
+	
+.reqQuote a:link{
+	color: white;
+	\\border-radius: 30%;
+   padding: 14px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+	}
+.reqQuote a:hover {
+	background-color: blue;;
+	color: white;
+	}
+	
+#searcMe {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 20%;
+	margin-bottom: 80px;
+	}
+
+
+	
+.topHit {
+	width: 24%;
+	float: left;
+	padding-right: 1%;
+	padding-left: 25%;
+	text-align: left;
+	color: white;
+	
+	}
+.recentHit {
+	width: 24%;
+	float: right;
+	padding-left: 1%;
+	padding-right: 25%;
+	text-align: left;
+	color: white;
+	}	
+
+/*
+bodyFooter
+*/
+.bodyFooter {
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	background: #2B2D42;
+   color: #8D99AE;
+   text-align: center;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+   }
+ @media (max-width: 900px) {
+	.bodyContent{
+		margin-bottom: 80%;
+		}
+		.userInfo .home {
+		width: 20;
+		}
+	.userInfo .content {
+		width: 30%;
+		}
+	.userInfo .profile {
+		width: 30%;
+		}
+	.topHit {width: 40%; padding-left: 10px;}
+	.recentHit { width: 40%; padding-right: 10px;}
+	}

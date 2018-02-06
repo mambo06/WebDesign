@@ -1,0 +1,47 @@
+/* 
+Global Style
+----------------------------
+*/
+html {
+	box-sizing: border-box;
+	background-color: #cceeff;
+	margin-top: 30px;background: linear-gradient(rgba(141, 153, 174, 0.5), rgba(141, 153, 174, 0.5)),
+              url(../image/melbourne.jpg) no-repeat fixed;
+   background-size: cover;
+   overflow: auto;
+	}
+* {
+      margin: 0;
+      padding: 0;
+    }
+
+
+h2 {
+	font-size: 40px;
+	}
+h3 {
+	margin-bottom: 5px;
+	}
+h4 {
+	margin-bottom: 0px;
+	margin-top: 5px;
+	}
+a {
+  color: white;
+  text-decoration: none;
+	}
+a:hover {
+  text-decoration: none;
+	}
+@media (max-width: 900px) {
+	.bodyContent {margin-bottom: 30%;}
+	.userInfo .home {
+		width: 20;
+		}
+	.userInfo .content {
+		width: 30%;
+		}
+	.userInfo .profile {
+		width: 30%;
+		}
+	}

@@ -1,0 +1,214 @@
+/*
+bodyHeader 
+*/
+.bodyWrapper {
+	width: 100%;
+	}
+	
+.bodyHeader {
+	background: #2B2D42;
+   color: #8D99AE;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+	}
+.userInfo {
+	background-color: #2B2D42;
+	}
+.userInfo .home {
+	float: left;
+	width: 10%;
+	background-color: inherit;
+	padding-left: 2%;
+	}
+.userInfo .content {
+	width: 10%;
+	float: left;
+	text-align: left;
+	background-color: inherit;
+	}
+.userInfo .profile {
+	width: 76%;
+	float: left;
+	text-align: right;
+	padding-right: 2%;
+	background-color: inherit;
+	}
+
+/*
+bodyContent
+*/
+.bodyContent{
+	margin-top: 1%;
+	margin-bottom: 8%;
+	text-align: center;	
+	width: 100%;
+	}
+/* 
+request htmp, company.html
+*/	
+.backImage {
+	padding-top: 10px;
+	height: 100px;	 
+	width: 100%;  
+   }
+   
+ .inputContainer {
+ 	background: linear-gradient(to top, #cceeff, #2B2D42);
+	width: 60%;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+ 	}
+.inputContainer h2 {
+	color: white;
+	}
+.formInput {
+	width: 90%;
+	background-color: #07abba;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 10%;
+	margin: auto;
+	}
+.formInput:hover {
+	background-color: #69e4ef;
+	color: black;
+	}
+.formInput input[type=text]{
+	max-width: 90%;
+	}
+.leftLabel {
+	width: 20	%;
+	float: left;
+	padding-left: 20px;
+	text-align: left;
+	}
+.rightInput {
+	width: 80%;
+	float: right;
+	padding-left: 5px;
+	text-align: left;
+	}
+/*
+content.html
+*/
+.user {
+	width: 90%;
+	background-color: #e3e3ed;
+	margin: auto;
+	}
+
+.user .userLogo {
+	width: 30%;
+	float: left;
+	text-align: center;
+	padding: 5px;
+	background-color: inherit;
+	}
+.user .fullName {
+	width: 60%;
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+	background-color: inherit;
+	
+	padding: 5px;
+	}
+.userCollumn {
+	width: 90%;
+	padding-bottom: 30px;
+	margin-bottom: 5px;
+	margin: auto;
+	overflow: auto;
+	}
+
+.userCollumn h3 {
+	margin: 10px;
+	text-align: left;
+	}
+
+.headerCollumn .coll{
+	background-color: #aaaaaf;
+	margin: 1px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+.bodyCollumn .coll {
+	background-color: #f2f2f4;
+	margin: 1px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+.bodyCollumn .coll:hover {
+	background-color: #bdc2f9;
+	}
+.userCollumn .col1 {
+	width: 10%;
+	float: left;
+	}
+.userCollumn .col2 {
+	text-align: left;
+	width: 30%;
+	float: left;
+	}
+.userCollumn .col3 {
+	text-align: left;
+	width: 30%;
+	float: left;
+	}
+.userCollumn .col4 {
+	text-align: left;
+	width: 25%;
+	float: left;
+	}
+.col1 {
+	text-align: center;
+	}
+/*
+bodyFooter
+*/
+.bodyFooter {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #2B2D42;
+   color: #8D99AE;
+   text-align: center;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+   }
+   
+ /*
+media Queries 
+ */
+@media (max-width: 900px) {
+	.bodyContent {margin-bottom: 30%;}
+	.userInfo .home {
+		width: 20;
+		}
+	.userInfo .content {
+		width: 30%;
+		}
+	.userInfo .profile {
+		width: 30%;
+		}
+	
+	.headerCollumn {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.bodyCollumn {
+		display: block;
+		float: left;
+		width: 100%;	
+		}
+	.userCollumn .col1 {width: 10%;} 
+	.userCollumn .col2 {width: 25%;}
+	.userCollumn .col3 {width: 25%;}
+	.userCollumn .col4 {width: 20%;}
